@@ -28,7 +28,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     || username==="nithinpatel" || username==="manohar" 
     || username==="saivenkata") && password === "123456") {
     // Redirect to the target page
-    this.action = "http://127.0.0.1:5500/Admin/admin-side/index.html";
+    this.action = "https://rishikeshkumaryadav77.github.io/admin-side-page/";
     this.submit(); // Programmatically submit the form
   } else {
     // Show error message
